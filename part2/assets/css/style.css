@@ -11,7 +11,7 @@ aside {
 	width: 150px;
 }
 body {
-	background-image: url("../images/dark-blue-silk.jpg");
+	background-image: url("../images/Flag.jpg");
 	color: white;
 	font-family: 'Arima Madurai', cursive;
 }
@@ -76,7 +76,7 @@ section {
 
 @media only screen and (max-width: 640px) {
 	.content-wrapper {
-		background-color: purple;
+		background-color: blue;
 	}
 	.about-me img{
 		width: 100%;
@@ -88,8 +88,19 @@ section {
 }
 
 
-
-
+.envelope {
+	position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:0px; top:0px;}
+    50%  {left:-100px; top:0px;}
+    75%  {left:100px; top:0px;}
+    100% {left:0px; top:0px;}
+}
 
 
 
